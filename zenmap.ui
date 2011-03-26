@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>644</width>
-    <height>567</height>
+    <width>639</width>
+    <height>560</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -147,7 +147,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>644</width>
+     <width>639</width>
      <height>23</height>
     </rect>
    </property>
@@ -280,18 +280,18 @@
  <resources/>
  <connections>
   <connection>
-   <sender>comboBox</sender>
-   <signal>activated(QString)</signal>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
-   <slot>changeCommand()</slot>
+   <slot>stopScan()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>484</x>
-     <y>43</y>
+     <x>152</x>
+     <y>523</y>
     </hint>
     <hint type="destinationlabel">
-     <x>575</x>
-     <y>28</y>
+     <x>269</x>
+     <y>534</y>
     </hint>
    </hints>
   </connection>
@@ -312,18 +312,18 @@
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_2</sender>
-   <signal>clicked()</signal>
+   <sender>comboBox</sender>
+   <signal>activated(QString)</signal>
    <receiver>MainWindow</receiver>
-   <slot>stopScan()</slot>
+   <slot>changeCommand()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>152</x>
-     <y>523</y>
+     <x>484</x>
+     <y>43</y>
     </hint>
     <hint type="destinationlabel">
-     <x>269</x>
-     <y>534</y>
+     <x>575</x>
+     <y>28</y>
     </hint>
    </hints>
   </connection>
